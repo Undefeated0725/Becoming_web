@@ -12,7 +12,7 @@ export function HomePageComponent() {
       <section className="bg-gradient-to-r from-sky-600 to-sky-400 text-white py-20">
         <div className="container mx-auto px-4 flex items-center justify-between">
           <div>
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">Welcome to Becoming Global</h1>
+            <h1 className="text-4xl md:text-6xl font-bold mb-4">Welcome to Becoming</h1>
             <p className="text-xl md:text-2xl mb-8">Empowering students through curiosity, exploration, and co-creation.</p>
             <Button size="lg" variant="secondary">Join Us Today</Button>
           </div>
@@ -33,7 +33,7 @@ export function HomePageComponent() {
             <Card className="bg-white shadow-lg">
               <CardHeader>
                 <CardTitle className="text-sky-600">Global Leaders Camp</CardTitle>
-                <CardDescription>Developing tomorrow's global leaders</CardDescription>
+                <CardDescription>Developing tomorrow&apos;s global leaders</CardDescription>
               </CardHeader>
               <CardContent>
                 <p>An intensive program designed to nurture leadership skills in an international context.</p>
@@ -91,7 +91,7 @@ export function HomePageComponent() {
                 <CardDescription>June 1, 2024</CardDescription>
               </CardHeader>
               <CardContent>
-                <p>Exciting news! We're partnering with Stanford University for our next Innovation Challenge.</p>
+                <p>Exciting news! We&apos;re partnering with Stanford University for our next Innovation Challenge.</p>
                 <Button className="mt-4" variant="outline">Read More</Button>
               </CardContent>
             </Card>
@@ -101,7 +101,7 @@ export function HomePageComponent() {
 
       <section className="py-16">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-8 text-sky-800">Why Join Becoming Global?</h2>
+          <h2 className="text-3xl font-bold mb-8 text-sky-800">Why Join Becoming?</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <Globe className="mx-auto h-12 w-12 text-sky-600 mb-4" />

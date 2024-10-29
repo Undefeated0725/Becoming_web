@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { Button } from "@/components/ui/button"
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -16,7 +15,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 height={50} 
                 className="rounded-full"
               />
-              <span className="text-2xl font-bold">Becoming Global</span>
+              <span className="text-2xl font-bold">Becoming Global Student Association</span>
             </Link>
             <ul className="flex space-x-4">
               <li><Link href="/" className="hover:underline">Home</Link></li>
